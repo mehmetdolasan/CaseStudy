@@ -13,6 +13,10 @@
 		D339FC0928488C8B007662AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D339FC0728488C8B007662AF /* Main.storyboard */; };
 		D339FC0B28488C8E007662AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D339FC0A28488C8E007662AF /* Assets.xcassets */; };
 		D339FC0E28488C8E007662AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D339FC0C28488C8E007662AF /* LaunchScreen.storyboard */; };
+		D339FC162848CAE7007662AF /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D339FC152848CAE7007662AF /* MainScreenViewController.swift */; };
+		D339FC1828490A68007662AF /* ShoeViewCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D339FC1728490A68007662AF /* ShoeViewCellCollectionViewCell.swift */; };
+		D339FC1A28490D6E007662AF /* Shoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D339FC1928490D6E007662AF /* Shoes.swift */; };
+		D339FC1C2849337A007662AF /* ShoesDetailScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D339FC1B28493379007662AF /* ShoesDetailScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D339FC0A28488C8E007662AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D339FC0D28488C8E007662AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D339FC0F28488C8E007662AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D339FC152848CAE7007662AF /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		D339FC1728490A68007662AF /* ShoeViewCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeViewCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		D339FC1928490D6E007662AF /* Shoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoes.swift; sourceTree = "<group>"; };
+		D339FC1B28493379007662AF /* ShoesDetailScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesDetailScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				D339FC0328488C8B007662AF /* SceneDelegate.swift */,
 				D339FC0528488C8B007662AF /* ViewController.swift */,
 				D339FC0728488C8B007662AF /* Main.storyboard */,
+				D339FC1728490A68007662AF /* ShoeViewCellCollectionViewCell.swift */,
+				D339FC1928490D6E007662AF /* Shoes.swift */,
+				D339FC152848CAE7007662AF /* MainScreenViewController.swift */,
+				D339FC1B28493379007662AF /* ShoesDetailScreenViewController.swift */,
 				D339FC0A28488C8E007662AF /* Assets.xcassets */,
 				D339FC0C28488C8E007662AF /* LaunchScreen.storyboard */,
 				D339FC0F28488C8E007662AF /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D339FC1C2849337A007662AF /* ShoesDetailScreenViewController.swift in Sources */,
+				D339FC1A28490D6E007662AF /* Shoes.swift in Sources */,
 				D339FC0628488C8B007662AF /* ViewController.swift in Sources */,
+				D339FC162848CAE7007662AF /* MainScreenViewController.swift in Sources */,
 				D339FC0228488C8B007662AF /* AppDelegate.swift in Sources */,
+				D339FC1828490A68007662AF /* ShoeViewCellCollectionViewCell.swift in Sources */,
 				D339FC0428488C8B007662AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

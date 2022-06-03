@@ -35,6 +35,21 @@ class ShoesDetailScreenViewController: UIViewController {
     }
     
 
-    
-
+    @IBAction func addToCartButtonTapped(_ sender: Any) {
+        
+        let alertController = UIAlertController(title: "Would You Like to Add to Cart?", message: "", preferredStyle: .alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .destructive){ action in
+            print("Cancel Tapped")
+        }
+        
+        alertController.addAction(cancelAction)
+        
+        let addAction = UIAlertAction(title: "Add", style: .default){ action in
+            print("Add Tapped")
+        }
+        
+        alertController.addAction(addAction)
+        self.present(alertController,animated: true)
+    }
 }
